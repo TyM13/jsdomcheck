@@ -15,7 +15,25 @@
 // main_h3[`innerText`] =`Maaiinn H3 ending!!`
 
 
-let all_h4 = document.getElementsByClassName(`h4_class`);
-for (let i = 0; i < all_h4.length; i++){
-all_h4[i][`innerText`] = `h4 tags are best tags`;
-}
+// let all_h4 = document.getElementsByClassName(`h4_class`);
+// for (let i = 0; i < all_h4.length; i++){
+// all_h4[i][`innerText`] = `h4 tags are best tags`;
+// }
+
+
+
+
+let section_title = document.getElementById(`section_h2`);
+
+section_title[`innerHTML`] = `so long sucker`;
+
+section_title[`outerHTML`] = `<p>i am before</p>` + section_title[`outerHTML`]
+
+let section_title_two = section_title
+
+section_title_two = document.getElementById(`section_h2`)
+
+section_title_two[`outerHTML`] = section_title_two[`outerHTML`] + `<p>i am after</p>`;
+
+
+
