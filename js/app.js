@@ -23,17 +23,22 @@
 
 
 
-let section_title = document.getElementById(`section_h2`);
+// let section_title = document.getElementById(`section_h2`);
 
-section_title[`innerHTML`] = `so long sucker`;
+// section_title[`innerHTML`] = `so long sucker`;
 
-section_title[`outerHTML`] = `<p>i am before</p>` + section_title[`outerHTML`]
+// section_title[`outerHTML`] = `<p>i am before</p>` + section_title[`outerHTML`]
 
-let section_title_two = section_title
+// let section_title_two = section_title
 
-section_title_two = document.getElementById(`section_h2`)
+// section_title_two = document.getElementById(`section_h2`)
 
-section_title_two[`outerHTML`] = section_title_two[`outerHTML`] + `<p>i am after</p>`;
+// section_title_two[`outerHTML`] = section_title_two[`outerHTML`] + `<p>i am after</p>`;
 
 
+
+let section_end_title = document.getElementById(`section_end`);
+section_end_title[`style`][`textAlign`] = `center`;
+section_end_title[`style`][`fontSize`] = `120px`;
+section_end_title[`style`][`background`] = `blue`;
 
